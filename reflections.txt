@@ -1,0 +1,20 @@
+Name:  Erick Anangwe
+
+# Put your reflections here --- including reflections on 
+# any testing oversights.
+
+Test 1
+
+- My test_days_elapsed1 test failed and this implies that my days_elapsed function is not working as expected.
+
+- The test_day_of_week (my_date_test.MyDateTest) test also failed. My function is returning a day that is two days behind the expected day.
+
+- The test_to_str1 (my_date_test.MyDateTest) test is also failing. Ofcourse this is expected if the above two functions aren't working because they are connected.
+
+- I need to figure out the bug in my code and I think I should start with the days_elapsed function.
+
+Test 2
+
+I found a bug in the days_elapsed function, specifically in the calculation of the days_in_year1 and days_in_year2.
+
+After rectifying the error my program worked just fine.
